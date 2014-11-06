@@ -1,0 +1,19 @@
+{
+    "name": "test-cat",
+    "version": "0.0.0",
+    "description": "",
+    "main": "cat.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "tape test/*.js | tap-spec"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "6to5": "^1.10.10",
+        "tape": "@latest",
+        "tap-spec": "@latest"
+    }
+}
